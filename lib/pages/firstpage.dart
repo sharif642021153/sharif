@@ -16,12 +16,13 @@ class FirstPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
+                  width: 250,
+                  height: 250,
                   child: Column(
                     children: [
                       const Icon(Icons.star_border_purple500),
                       const Text(
                         "ดอยอินทนนท์",
-                        style: TextStyle(color: Colors.blue),
                       ),
                       const Icon(Icons.camera_alt_outlined),
                       const Text("ถ่ายรูป ชมวิวชิวๆ "),
